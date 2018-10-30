@@ -1,0 +1,10 @@
+<launch>
+
+  <!-- Start a node for each axis, copy this -->
+  <node name="thorlabs_x" pkg="thorlabs_tdc" type="thorlabs_tdc" output="screen" >
+  	<rosparam command="load" file="$(find thorlabs_tdc)/config/default.yaml" />
+  	<param name="SerialNumber" type="str" value="xxx" />
+  	<param name="StageType" value="1" />
+  </node>
+  
+</launch>
