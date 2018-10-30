@@ -21,9 +21,11 @@ sudo rmmod usbserial
 It is also important to give the user enough privileges to access the USB ports (udev rules, user groups).
 
 ## Start node
-- Set serialnumbers/ types and all devices in launch file.
+
+Set serialnumbers/ types and all devices in launch file.
 
 Type 1: linear stage
+
 Type 2: rotational stage
 
 `roslaunch thorlabs_tdc thorlabs_tdc.launch`
